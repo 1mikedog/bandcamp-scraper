@@ -10,7 +10,11 @@ import psycopg2
 from flask import request
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import random
-import config
+
+try:
+    import config
+except:
+    pass
 
 import random
 from discord_webhook import DiscordWebhook, DiscordEmbed
