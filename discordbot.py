@@ -12,7 +12,11 @@ import requests
 import json
 import asyncpraw
 import asyncio
-import config
+
+try:
+    import config
+except:
+    pass
 
 intents = discord.Intents.all()
 
