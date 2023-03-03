@@ -1,0 +1,1 @@
+bandcamp: python3 bandcamp.py
